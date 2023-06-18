@@ -1,0 +1,19 @@
+.main {
+    &__titulo {
+        @include tituloPrimary
+    }
+
+    &__parrafo {
+        font-size: 20px;
+        font-weight: bolder;
+        font-size: 23px;
+    }
+
+    &__form {
+
+        font-weight: bold;
+    }
+ &__contacto{
+    background-color:   #FFD8A2;
+ }
+}

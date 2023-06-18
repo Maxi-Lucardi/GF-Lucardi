@@ -1,0 +1,25 @@
+.footer{
+
+    &__principal{
+        font-family: $fuente-primary;
+        color: $color-tertiary;
+        font-size: 20px;
+    }
+    &__lugar {
+        letter-spacing: 1px;
+    }
+    &__iconsRedes a {
+        color: $color-tertiary;
+        text-decoration: none;
+        margin: 20px;
+        font-size: 25px;
+    }
+    
+    &__iconsRedes a:hover {
+        font-size: 30px;
+    }
+
+}
+
+
+

@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html lang="es">
+
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="noticias sobre las mascotas del refugio">
+  <meta name="keywords" content="noticias, adopcion, mascotas, gatos, perros, gatitos ">
+  <title>Panchinoticias</title>
+  <link rel="shortcut icon" href="../img/favicon-32x32.png" type="image/x-icon">
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-KK94CHFLLe+nY2dmCWGMq91rCGa5gtU4mk92HdvYe+M/SXH301p5ILy+dN9+nJOZ" crossorigin="anonymous">
+  <link rel="stylesheet" href="../css/main.css">
+</head>
+
+<body>
+  <!-- inicio cabecera -->
+  <header id="header">
+    <div class="fixed-top">
+      <nav class="navbar navbar-expand-lg bg-black">
+        <div class="container-fluid">
+          <a class="navbar-brand" href="../index.html">
+            <img class="mx-2" src="../img/favicon-32x32.png" alt="logo">Los panchitos</a>
+          <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarTogglerDemo02"
+            aria-controls="navbarTogglerDemo02" aria-expanded="false" aria-label="Toggle navigation">
+            <svg xmlns="http://www.w3.org/2000/svg" width="26" height="26" fill="#FFA834" class="bi bi-list"
+              viewBox="0 0 16 16">
+              <path fill-rule="evenodd"
+                d="M2.5 12a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5zm0-4a.5.5 0 0 1 .5-.5h10a.5.5 0 0 1 0 1H3a.5.5 0 0 1-.5-.5z" />
+            </svg>
+          </button>
+          <div class="collapse navbar-collapse" id="navbarTogglerDemo02">
+            <ul class="navbar-nav me-auto mb-2 mb-lg-0">
+              <li class="nav-item">
+                <a class="nav-link" aria-current="page" href="galeria.html">Galeria</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="noticias.html">Noticias</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="contacto.html">Contacto</a>
+              </li>
+              <li class="nav-item">
+                <a class="nav-link" href="nosotros.html">Nosotros</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+      </nav>
+    </div>
+  </header>
+  <!-- fin cabecera -->
+  <!-- inicio contenido -->
+  <main class="main__noticias container-fluid mt-5 pt-5">
+    <div class="banner__noticias  text-center  ">
+      <h1 class="banner__title lh-base"> PANCHINOTICIAS</h1>
+    </div>
+    <h3 class="main__subNoticias p-4">Nuestras noticias mas importantes</h3>
+    <p class="parrafo__subNoticias px-4">Nuestras seccion de noticias, cuenta con lo mas importante dentro del refugio
+      ya sea nuevos integrantes a la familia, adopciones, ayudas y otras cosas mas, tambiem tenemos un apartado donde
+      concecta con otras paginas amigas, si tenes un minuto te recomendamos que las visites. como ya saben los panchitos
+      es un refugio transitorio para animales abandonados o que sufren de maltrato. y queremos que sea solo eso un lugar
+      de paso y en donde puedan encontrar un nuevo hogar.
+    </p>
+    </div>
+    <div class="container-fluid">
+      <div class="row d-flex justify-content-around align-items-center pt-5 ">
+        <div id="carouselExampleDark" class="carousel carousel-dark slide col-12 col-md-6 pb-3">
+          <div class="carousel-indicators">
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active"
+              aria-current="true" aria-label="Slide 1"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1"
+              aria-label="Slide 2"></button>
+            <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2"
+              aria-label="Slide 3"></button>
+          </div>
+          <div class="carousel-inner">
+            <div class="carousel-item active" data-bs-interval="10000">
+              <img src="../img/grupoPerros.webp" class="d-block w-100" alt="Perrita adoptada recientemente">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="carousel__titulo">Clarita fue adoptada!</h5>
+                <p class="carousel__parrafo">Clarita consiguio una nueva familia y estamos muy felicices.</p>
+              </div>
+            </div>
+            <div class="carousel-item" data-bs-interval="2000">
+              <img src="../img/perrito-adopcion.webp" class="d-block w-100" alt="Perrito chiquito para adoptar">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="carousel__titulo">jaco te esta buscando!</h5>
+                <p class="carousel__parrafo">Jaco es un cachorrito hermoso que necesita un nuevo hogar.</p>
+              </div>
+            </div>
+            <div class="carousel-item">
+              <img src="../img/perro2.webp" class="d-block w-100" alt="Grupo de perros en la calle">
+              <div class="carousel-caption d-none d-md-block">
+                <h5 class="carousel__titulo">Ayudanos a rescatarlos!</h5>
+                <p class="carousel__parrafo">Gracias a los vecinos pudimos rescatar a rocky de las calles</p>
+              </div>
+            </div>
+          </div>
+          <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="prev">
+            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Previous</span>
+          </button>
+          <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark"
+            data-bs-slide="next">
+            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+            <span class="visually-hidden">Next</span>
+          </button>
+        </div>
+        <div class="card pt-3 col-12 col-md-6 " style="width: 18rem;">
+          <img src="../img/gato-adopcion.jpg" class="card-img-top" alt="Gatito macho en adopcion">
+          <div class="card-body">
+            <h5 class="card-title text-center pt-3">Urgente Salem necesita un hogar</h5>
+            <p class="card-text pt-3"> Salem es un gatito macho que necesita una nueva familia, ya que sus dueños viajan
+              y no se lo pueden llevar, si estas interesado en salem y queres adoptarlo por favor contactanos!
+            </p>
+            <a href="contacto.html" class="btn btn-primary">Contactenos</a>
+          </div>
+        </div>
+      </div>
+    </div>
+    <div class="subtitulo__cards text-center pt-3">
+      <h3>Estos son algunos refugios que tambien estan ayudando por favor visitalos</h3>
+    </div>
+    <div class="row d-flex justify-content-evenly pt-5 pb-5">
+      <div class="card mb-3 text-center" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Los panchitos</h5>
+          <p class="card-text">Si queres adoptar o ayudar a los panchitos</p>
+          <a href="contacto.html" class="btn btn-primary">Contactenos</a>
+        </div>
+      </div>
+      <div class="card text-center mb-3" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Proyecto 4 patas</h5>
+          <p class="card-text">Este es un refugio nuevo pero con muchas ganas de ayudar</p>
+          <a href="https://www.proyecto4patas.org/requisitos-adopcion/" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+      <div class="card text-center" style="width: 18rem;">
+        <div class="card-body">
+          <h5 class="card-title">Adopciones puppis</h5>
+          <p class="card-text">Puppis empezo como una veterinaria pero su corazon fue mas grande y abrio su propio
+            refugio
+            para ayudarlos
+          </p>
+          <a href="https://adopciones.puppis.com.ar/" class="btn btn-primary">Visitar</a>
+        </div>
+      </div>
+    </div>
+  </main>
+  <!-- fin contenido  -->
+  <!-- inicio footer -->
+  <footer class="footer__principal container-fluid  ">
+    <div class="footer__contenedor row d-flex align-items-center  text-center pt-3 bg-black">
+      <div class=" footer__iconsRedes col-12 col-md-3 ">
+        <a href="#"><i class="fa-brands fa-facebook"></i></a>
+        <a href="#"><i class="fa-brands fa-linkedin"></i></a>
+        <a href="#"><i class="fa-brands fa-twitter"></i></a>
+        <a href="#"><i class="fa-brands fa-github"></i></a>
+      </div>
+      <div class="footer__copy col-12 col-md-3">
+        todos los derechos reservados &copy; Casikefur
+      </div>
+      <div class="footer__lugar col-12 col-md-3   ">
+        <h3>
+          ¿Donde estamos?
+        </h3>
+        <p>
+          esmeralda 444 caba
+        </p>
+        <p>
+          tel: 1565854853
+        </p>
+      </div>
+      <div class="footer__iframe col-12 col-md-3">
+        <iframe
+          src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3284.045447903605!2d-58.38084402363848!3d-34.603012257462!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x95bccace97775101%3A0xd333b251944bbf7e!2sEsmeralda%20444%2C%20C1007ABB%20CABA!5e0!3m2!1ses!2sar!4v1685821722729!5m2!1ses!2sar"
+          width="150" height="150" style="border:0;" allowfullscreen="" loading="lazy"
+          referrerpolicy="no-referrer-when-downgrade"></iframe>
+      </div>
+    </div>
+  </footer>
+  <!-- fin footer -->
+  <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.0-alpha3/dist/js/bootstrap.bundle.min.js"
+    integrity="sha384-ENjdO4Dr2bkBIFxQpeoTz1HIcje39Wm4jDKdf19U8gI4ddQ3GYNS7NTKfAdVQSZe"
+    crossorigin="anonymous"></script>
+  <script src="https://kit.fontawesome.com/7107e6202f.js" crossorigin="anonymous"></script>
+</body>
+
+</html>

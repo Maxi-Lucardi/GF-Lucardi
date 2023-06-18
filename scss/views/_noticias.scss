@@ -1,0 +1,117 @@
+.main {
+
+    &__subNoticias {
+        font-family: $fuente-primary;
+        color: $color-primary;
+        font-size: 30px;
+        text-shadow: 1px 1px 2px $color-secondary;
+        letter-spacing: 1px;
+    }
+
+    &__noticias {
+        background-color: #FFFBEF;
+    }
+}
+
+.banner {
+    &__noticias {
+        height: 80px;
+        background-size: contain;
+        border: 1px solid $color-primary;
+        box-shadow: 0px 0px 4px $color-primary inset, 0px 0px 4px $color-primary inset, 0px 0px 4px $color-primary inset;
+    }
+
+    &__title {
+        line-height: 80px;
+        color: $color-tertiary;
+        text-shadow: 3px 0px $color-secondary, 2px 1px $color-secondary, 2px 1px 4px $color-secondary ;
+    }
+}
+
+.parrafo__subNoticias {
+    width: 75%;
+    text-align: justify;
+    font-size: 18px;
+    font-family: $fuente-secondary;
+}
+
+@media(min-width:200px) {
+    .banner {
+
+        &__noticias {
+            width: 100%;
+            margin-left: 0;
+            background-color: #ffa7346a;
+            border-radius: 25px;
+        }
+
+        &__title {
+            font-size: 25px;
+            padding-top: 20px;
+        }
+    }
+}
+
+@media(min-width:374px) {
+    .banner {
+        &__noticias {
+            width: 85%;
+            margin-left: 35px;
+        }
+
+        &__title {
+            font-size: 30px;
+        }
+    }
+}
+
+@media(min-width:414px) {
+    .banner {
+        &__noticias {
+            width: 85%;
+            margin-left: 25px;
+        }
+
+        &__title {
+            font-size: 35px;
+        }
+    }
+}
+
+
+@media(min-width:775px) {
+    .banner {
+        &__noticias {
+            width: 75.5%;
+            margin-left: 70px;
+        }
+
+        &__title {
+            font-size: 45px;
+            padding: 0;
+        }
+    }
+}
+
+@media(min-width:1400px) {
+    .banner__noticias {
+        width: 65%;
+        margin-left: 300px;
+    }
+}
+
+.carousel {
+    &-inner {
+        border-radius: 25px;
+    }
+
+    &__titulo {
+        @include carouselPrimary
+    }
+
+    &__parrafo {
+        font-size: 20px;
+        font-family: $fuente-secondary;
+        color: $color-tertiary;
+    }
+}

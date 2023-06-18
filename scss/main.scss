@@ -1,0 +1,22 @@
+// fuentes
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@200;700&family=Roboto+Condensed:wght@700&display=swap');
+// utilities
+@import 'utilities/variables';
+@import 'utilities/mixins';
+
+// base
+@import 'base/reset';
+
+// layout
+@import 'layout/header';
+@import 'layout/footer';
+
+
+
+// views
+@import 'views/home';
+@import 'views/galeria';
+@import 'views/noticias';
+@import 'views/contacto';
+@import 'views/nosotros';
+@import 'views/not-found';
